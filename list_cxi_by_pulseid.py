@@ -1,3 +1,9 @@
+"""
+Generates cxi file list by pulse ID, that can be separately fed to crystfel if indexing separate pulses needs original cxi file 
+python list_cxi_by_pulseid.py p2808_r048.cxi  --start-pulseId 8 --end-pulseId 1488 --factor 96 
+""""
+
+
 import os
 import h5py
 import argparse
