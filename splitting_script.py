@@ -1,3 +1,11 @@
+"""
+Run with python splitting_script.py --input mosflm.stream  --start-pulseId 8 --end-pulseId 1488 --factor 96
+
+Give input stream file, typically output from crystfel, then pulse ID start and end of sequence along with multiplying factor, this can be found in the raw or h5 files for a run if needed 
+"""
+
+
+
 import argparse
 import os
 import sys
