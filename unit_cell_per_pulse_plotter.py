@@ -1,3 +1,11 @@
+"""
+Run with python unit_cell_pulse_plotter.py
+
+Requires stream files to be in same folder already split into each pulse ID which can be done with splitting_script.py
+"""
+
+
+
 import os
 import re
 import matplotlib.pyplot as plt
